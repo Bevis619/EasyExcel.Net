@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyExcel", "EasyExcel\EasyExcel.csproj", "{513014FA-03B6-4E90-BA9A-3116678B91A3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyExcel.Test", "EasyExcel.Test\EasyExcel.Test.csproj", "{B6804682-7E82-4458-BEF1-9ECDF1B744C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyExcel.WebTest", "EasyExcel.WebTest\EasyExcel.WebTest.csproj", "{CDB22889-D15F-49D0-877F-26A1D2C1B632}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B6804682-7E82-4458-BEF1-9ECDF1B744C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6804682-7E82-4458-BEF1-9ECDF1B744C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6804682-7E82-4458-BEF1-9ECDF1B744C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB22889-D15F-49D0-877F-26A1D2C1B632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB22889-D15F-49D0-877F-26A1D2C1B632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB22889-D15F-49D0-877F-26A1D2C1B632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB22889-D15F-49D0-877F-26A1D2C1B632}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

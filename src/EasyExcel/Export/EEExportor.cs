@@ -48,8 +48,7 @@ namespace EasyExcel.Export
         public void StreamAction()
         {
             MakeExcelAction();
-            var bytes = new byte[this.excelPlus.Stream.Length];
-            this.excelPlus.Stream.Read(bytes, 0, bytes.Length);
+            var bytes = this.excelPlus.GetAsByteArray();
             this.Write2Response(bytes);
         }
 
